@@ -2,6 +2,7 @@
 An improved/remade version of the following plugins:
 
 [[L4D] Varying Ammunition Reserves](https://forums.alliedmods.net/showthread.php?t=117200)
+
 [[L4D2] Varying Ammunition Reserves (1.5.3)](https://forums.alliedmods.net/showthread.php?t=125570)
 
 ## License
@@ -159,6 +160,35 @@ av_sniperrifle_max "180"
 // -
 // Default: "90"
 av_sniperrifle_min "90"
+```
+
+## Questions You May Have
+> If you have any questions that aren't addressed below, feel free to message me or post on this [thread](https://forums.alliedmods.net/showthread.php?t=308211).
+
+1. How do I enable/disable the plugin in certain game modes?
+You must specify the game modes in the av_enabledgamemodes and av_disabledgamemodes convars.
+
+Here are some scenarios and their outcomes:
+- Scenario 1
+```
+av_enabledgamemodes "" // The plugin is enabled in all game modes.
+av_disabledgamemodes "coop" // The plugin is disabled in Campaign mode.
+
+Outcome: The plugin works in every game mode except in Campaign mode.
+```
+- Scenario 2
+```
+av_enabledgamemodes "coop" // The plugin is enabled in only Campaign mode.
+av_disabledgamemodes "" // The plugin is not disabled at all.
+
+Outcome: The plugin works only in Campaign mode.
+```
+- Scenario 3
+```
+av_enabledgamemodes "coop,versus" // The plugin is enabled in only Campaign and Versus modes.
+av_disabledgamemodes "coop" // The plugin is disabled in Campaign mode.
+
+Outcome: The plugin works only in Versus mode.
 ```
 
 # Contact Me
