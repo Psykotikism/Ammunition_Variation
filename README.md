@@ -166,6 +166,7 @@ av_sniperrifle_min "90"
 > If you have any questions that aren't addressed below, feel free to message me or post on this [thread](https://forums.alliedmods.net/showthread.php?t=308211).
 
 1. How do I enable/disable the plugin in certain game modes?
+
 You must specify the game modes in the av_enabledgamemodes and av_disabledgamemodes convars.
 
 Here are some scenarios and their outcomes:
