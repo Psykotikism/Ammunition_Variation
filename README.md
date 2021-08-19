@@ -1,4 +1,9 @@
 # Ammunition Variation
+
+## PayPal
+[Donate to my PayPal if you appreciate my work](https://paypal.me/Psyk0tikism?locale.x=en_US)
+
+## Introduction
 An improved/remade version of the following plugins:
 
 [[L4D] Varying Ammunition Reserves](https://forums.alliedmods.net/showthread.php?t=117200)
